@@ -46,6 +46,7 @@ Adjuntamos la Carta de Invitación por parte de la Decanatura de la Facultad de 
         await bot.sendMessage(number,mensaje,{
            media:'http://localhost:3000/CARTA.pdf'
         });
+        console.log('Mensaje enviado a '+name+ ' al numero ' + number)
         res.end('Funcionaaa')
     }))
 
